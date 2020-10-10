@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+    text-align: center;
+}
+table th{
+    vertical-align: text-bottom;
+    width: 33%;
+}
+table th img {
+    width: 96%;
+}
+table img{
+    margin: auto;
+    width: 10%;
+    display: block;
+}
+table tr td{
+    padding-top: 20px;
+}

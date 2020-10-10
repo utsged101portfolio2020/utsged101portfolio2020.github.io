@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    display: block;
+    margin: 0px;
+    max-width: 100%;
+    overflow-x:  hidden;
+    font-family: sans-serif;
+    display: block;
+    background-color: rgb(230,230,230);
+}
+header img{
+    width: 100%;
+}
+header{
+    background-color: black;
+}
+header #indexhead{
+    width: 10%;
+    margin: auto;
+    display: block;
+}
+nav {
+  background-color: #7209B7;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.column {
+  float: left;
+  margin-bottom: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  margin-top: 3%;
+  width: 28%;
+  border-radius: 2px;
+}
+.column.side img{
+    width: 100%;
+}
+.custom-add a{
+    color: crimson;
+}
+.custom-add td{
+    width: 50%;
+    position: relative;
+    left: -10px;top: -10px;
+}
+/* Middle column */
+.column.middle {
+  width: 69%;
+  margin-left: 3%;
+  display: block;
+  background-color: rgba(244, 244, 244, 0.2);
+  
+}
+.column.middle h1{
+    font-size: 32pt;
+    margin-left: 1.25%;
+    font-family: Fjalla One, serif;
+    font-weight:900;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+.row:after {
+  content: "";
+  display: table;
+}
+p{
+    text-indent: 0px;
+}
+footer{
+    margin-top: 50px;
+    background:  linear-gradient(black,#222222,#222222,#222222,#222222,#222222,  black);
+    color: #4CC9F0;
+    padding: 10px;
+    clear: both;
+   font-size: 2vh;
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    color: white;;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: none;
+    color: crimson;
+}
+footer img{
+    width: 100%;
+    float: left;
+}
+footer .footrow{
+    width: 100%;
+    clear: both;
+}
+.footcol{
+    width: 25%;
+    float: left;
+}
+footer .footcol a{
+    width: fit-content;
+    width: 100%
+}
+footer b{
+    color: gold;
+}

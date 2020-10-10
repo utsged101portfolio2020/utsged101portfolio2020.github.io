@@ -1,0 +1,25 @@
+article .artcont{
+    padding-left: 2%;
+    font-size: 14pt;
+}
+article .artcont p{
+    margin-left: 0px;
+    width: 80%;
+}
+article figure{  
+    position: relative;
+    width: 100%;
+    left: 0;
+    margin: 0;
+}
+article img{
+    position: relative;
+    width: 80%;
+}
+
+article p a, article ul li a{
+    color: crimson;
+}
+article p a:hover{
+    color: cyan;
+}

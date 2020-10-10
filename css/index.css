@@ -1,0 +1,36 @@
+article{
+    top:30px;
+    width: 80%;
+    float: left;
+    display: block;
+}
+
+ .rowart{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+ .colart{
+    margin: 10px 0 0 0;
+    width: 24%;
+    float: left;
+    min-height: 400px;
+    max-height: 600px;
+    font-size: 1.25vw;
+    margin-left: 1%;
+    display: block;
+    text-align: center;
+    min-width: 150px;
+}
+article .colart img{
+    padding-top:  20px;
+    margin:auto;
+    width: 40%;
+}
+article p{
+    width: 80%;
+    margin: auto;
+}
+article a{
+    color: #3A0CA3;
+}

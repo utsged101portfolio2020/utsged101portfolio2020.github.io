@@ -1,0 +1,40 @@
+.column .middle{
+    background-color: #4CC9F0;
+}
+.news-art {
+    position: relative;
+    top:0px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 360px;
+    height: 100%;
+    font-family: Raleway, sans-serif;
+    margin: 0px;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.8),rgba(0,0,0,0.4),rgba(0,0,0,0.0));
+    float: left;
+    vertical-align: text-bottom;
+}
+.news-art:hover{
+    color: #4CC9F0;
+    background: rgba(0,0,0,0.7);
+}
+.colart{
+    margin: 1.25%;
+    width: 360px;;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    color: white;
+    background-color: #4361EE;
+}
+.colart h3{
+    font-size: 20pt;
+}
+.colart h5{
+    width: 90%;
+    font-weight: normal;
+    font-family: Verdana;
+    font-size: medium;
+    line-break: loose;
+}
